@@ -26,6 +26,9 @@
    
   }
  
+  .img-log{width: 300px; }
+
+
   #nosotros{}
 
   .img-height{height: 90%;}
@@ -62,9 +65,7 @@
   }
 
 
-  #soluciones{background-image: url(img/solucions.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+  #soluciones{
   
   }
 
@@ -170,13 +171,16 @@ padding-top: 25%;
 .espaciado-bot-contactos{padding-bottom: 5.5%;}
 
 
-.menu{padding-left:10%!important;}
+.menu{justify-content: center;}
 
  .espaciado-menu{padding-left: 2%; padding-right: 2%;}
 
  .container-fluid-l{padding-left: 8.33%!important;}
 
  .container-fluid-r{padding-right: 8.33%!important;}
+
+ .container-fluid-lr{padding-left: 8.33%!important;padding-right: 8.33%!important;}
+
 
  .right-p{padding-right: 20%; padding-left: 2%;}
 
