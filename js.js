@@ -31,3 +31,4 @@
         $(this).ekkoLightbox();
       });
 })
+//preguntas alineamiento con container?    palabras slidershow    carousel por debajo de soluciones    nav cuando baja cambia de color?

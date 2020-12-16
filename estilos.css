@@ -4,7 +4,8 @@
     display: block;
     display: flex;
     align-items: stretch;
-    
+
+    font-family: "Conv_DINNextLTPro-Regular";
 }
 
 #content {
@@ -33,7 +34,7 @@
   }
   
   #mision{
-    background-color: rgb(210, 210, 210);
+    background-color: rgb(230, 230, 230);
   }
 
   .height-card {
@@ -59,9 +60,54 @@
     border: none;
    border-radius: 0%;
   }
+
+
+  #soluciones{background-image: url(img/solucions.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  }
+
+
+#contactos{background-color: #39b44a;}
+
+#contactos article{background-color: rgb(230, 230, 230);}
+
+
+#form{background-color: #39b44a;}
+
+#b1 {
+  background-color: white;
+  border-color: #39b44a;
+  border-radius: 0;
+  color: #39b44a;
+}
+
+#ci {
+  background-color: #39b44a;
+  border-color: white;
+  border-radius: 0;
+  color: white;
+}
+
+#ci::placeholder {
+  color: white;
+  font-size: 20px;
+}
+
+
+footer{color: #39b44a;
+
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+
+}
+footer div span{font-weight: 700;}
+
+
   /*weight*/
 .weight_700 {
-    font-weight: 700;
+    font-weight: 700!important;
   }
   .weight_900 {
     font-weight: 900;
@@ -73,8 +119,8 @@
 .size-2_2{font-size: 2.2em; width: 4em; border-bottom: #39b44a solid 2px;
 padding-top: 0.3em;
 }
-.size-40 {
-  font-size: 40px;
+.size-2_6 {
+  font-size: 2.6em;
 }
 .size{font-size: 17.6px; line-height: 1.5}
 
@@ -98,15 +144,30 @@ padding-top: 25%;
     margin-bottom: 3%;
   }
 
+  .subtitulo-contactos {
+    background-color: white;
+    font-size: 2.5rem;
+    color: #39b44a;
+    padding: 0.3% 1.3% 0% 1.3%;
+    width: max-content;
+
+    margin-bottom: 3%;
+  }
+
   p{font-weight: 500;}
+
 /*espaciados */
 
 .espaciado-top {
   padding-top: 5.5%;
 }
 .espaciado-bot {
-  padding-bottom: 5.5%;
+  padding-bottom: 7%;
 }
+
+.espaciado-top-contactos{padding-top: 7%;}
+
+.espaciado-bot-contactos{padding-bottom: 5.5%;}
 
 
 .menu{padding-left:10%!important;}
@@ -128,22 +189,72 @@ color: #39b44a;
  .left-h1{padding-left: 25%; padding-top: 5%; padding-right: 2%;
 color: #39b44a;
 }
+
 /* colores*/
 .color-verde{color: #39b44a;}
 
-.colow-white{color: white;}
+.color-white{color: white;}
 
 .img-w {
   font-size: 20px;
   color: white;
 }
+
  /*fonts*/
+
+ @font-face {
+  font-family: "Conv_DINNextLTPro-Regular";
+  src: url("font/DINNextLTPro-Regular.eot");
+  src: local("☺"),
+    url("font/DINNextLTPro-Regular.woff") format("woff"),
+    url("font/DINNextLTPro-Regular.ttf") format("truetype"),
+    url("font/DINNextLTPro-Regular.svg") format("svg");
+  
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: "Conv_DINNextLTPro-Medium";
+  src: url("font/DINNextLTPro-Medium.eot");
+  src: local("☺"),
+    url("font/DINNextLTPro-Medium.woff") format("woff"),
+    url("font/DINNextLTPro-Medium.ttf") format("truetype"),
+    url("font/DINNextLTPro-Medium.svg") format("svg");
+  
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: "Conv_DINNextLTPro-Condensed";
+  src: url("font/DINNextLTPro-Condensed.eot");
+  src: local("☺"),
+    url("font/DINNextLTPro-Condensed.woff") format("woff"),
+    url("font/DINNextLTPro-Condensed.ttf") format("truetype"),
+    url("font/DINNextLTPro-Condensed.svg") format("svg");
+  
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: "Conv_DINNextLTPro-Bold";
+  src: url("font/DINNextLTPro-Bold.eot");
+  src: local("☺"),
+    url("font/DINNextLTPro-Bold.woff") format("woff"),
+    url("font/DINNextLTPro-Bold.ttf") format("truetype"),
+    url("font/DINNextLTPro-Bold.svg") format("svg");
+  
+  font-style: normal;
+
+}
 
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?74812989');
-  src: url('../font/fontello.eot?74812989#iefix') format('embedded-opentype'),
-       url('../font/fontello.svg?74812989#fontello') format('svg');
+  src: url('font/fontello.eot?74812989');
+  src: url('font/fontello.eot?74812989#iefix') format('embedded-opentype'),
+       url('font/fontello.svg?74812989#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -224,7 +335,7 @@ color: #39b44a;
 
 
 .change {
-  background-color: #333333;
+  background-color: #39b44a!important;
   transition: background-color 0.2s 0.2s ease;
 }
 
@@ -248,7 +359,7 @@ color: #39b44a;
 
 #nav1 {
   text-decoration: none;
-  
+  color: white;
 }
 
 #nav1:hover {
@@ -271,3 +382,6 @@ color: #39b44a;
   font-size: 30px;
   color: white;
 }
+
+/*slider*/
+  
