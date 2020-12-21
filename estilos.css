@@ -37,7 +37,7 @@
   }
   
   #mision{
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(240, 240, 240);
   }
 
   .height-card {
@@ -50,7 +50,7 @@
 
   .cambiacolor:hover .color-verde {
    
-    color: white;
+    color: white!important;
   }
  
   .cambiacolor:hover .size-2_2 {
@@ -66,9 +66,18 @@
 
 
   #soluciones{
-  
+  background-color: rgb(230, 230, 230);
   }
 
+  .card-height{height: 26em!important;}
+
+  div.uk-overlay-default.uk-position-bottom.card{height: 50%; margin-bottom: 5%; margin-right: 5%; border-radius: 0%!important; padding: 2% 7% 4% 7%;}
+
+.uk-position-bottom div.row{padding: 0% 7% 0% 7%;}
+
+h7 { align-self: center;     line-height: 1.1em;}
+
+  .slider{align-self: center;background-color: rgb(230, 230, 230);}
 
 #contactos{background-color: #39b44a;}
 
@@ -123,7 +132,9 @@ padding-top: 0.3em;
 .size-2_6 {
   font-size: 2.6em;
 }
-.size{font-size: 17.6px; line-height: 1.5}
+.size{font-size: 16px; line-height: 1.5}
+
+.size-card{font-size: 1.2em; font-weight: 700;}
 
 h1{font-size: 3.5em!important;
 
@@ -143,6 +154,7 @@ padding-top: 25%;
     width: max-content;
     margin-top: 4%;
     margin-bottom: 3%;
+    font-weight: 700;
   }
 
   .subtitulo-contactos {
@@ -151,7 +163,7 @@ padding-top: 25%;
     color: #39b44a;
     padding: 0.3% 1.3% 0% 1.3%;
     width: max-content;
-
+    font-weight: 700;
     margin-bottom: 3%;
   }
 
@@ -170,12 +182,15 @@ padding-top: 25%;
 
 .espaciado-bot-contactos{padding-bottom: 5.5%;}
 
+.espaciado-top-soluciones{padding-top: 17%; line-height: 2.5em;}
 
 .menu{justify-content: center;}
 
  .espaciado-menu{padding-left: 2%; padding-right: 2%;}
 
  .container-fluid-l{padding-left: 8.33%!important;}
+
+ .container-fluid-l2{padding-left: 16.66%!important;}
 
  .container-fluid-r{padding-right: 8.33%!important;}
 
@@ -195,7 +210,7 @@ color: #39b44a;
 }
 
 /* colores*/
-.color-verde{color: #39b44a;}
+.color-verde{color: #39b44a!important;}
 
 .color-white{color: white;}
 
