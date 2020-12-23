@@ -21,7 +21,7 @@
     <title>Finarvis S.R.L</title>
 
     <!-- Bootstrap CSS CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
    
 </head>
 
@@ -45,7 +45,7 @@
             </a>
          
 
-            <ul class="navbar-nav menu" style="flex-direction: row; flex: auto;">
+            <ul class="navbar-nav menu pt-0" style="flex-direction: row; flex: auto;">
               <li class="espaciado-menu">
                 <a  id="nav1" href="#nosotros">Nosotros</a>
               </li>
@@ -178,52 +178,68 @@
           </div>-->
 <!--content-->
 <div id="content" >
-    <section class="container-fluid container-fluid-lr vh-100 d-flex flex-column justify-content-between head" id="head-home"    data-slides='[
-  "img/finarvis-header01.jpg",
-  "img/finarvis-header02.jpg",
-  "img/finarvis-header03.jpg",
-  "img/finarvis-header04.jpg"
+    
 
-]'>
+      <div id="carouselExampleControls" class="carousel slide carousel-fade vh-100 " data-bs-ride="carousel">
+        <div class="carousel-inner ">
+          <div class="carousel-item active " data-bs-interval="5000">
+            <img src="img/finarvis-header01.jpg" class="d-block w-100 " alt="...">
+            <div class="row container-fluid-l  uk-position-center w-100"  id="media">
+              <h1 class="col-md-6 col-12 titulo">Estamos en cada etapa de tu cultivo
+      
+              </h1>
+            </div>
+          </div>
 
-     <!-- <div class="row d-flex justify-content-between align-items-center ">
-        <a href="index.html" class="d-none d-sm-none d-md-none d-lg-block"><img src="img/finarvis-logo.svg" alt="Marinelli S.A." width="300"></a>
+          <div class="carousel-item" data-bs-interval="5000" >
+            <img src="img/finarvis-header02.jpg " class="d-block w-100" alt="...">
+            <div class="row container-fluid-l uk-position-center w-100" id="media">
+              <div class="col-md-6 col-12"> 
+              <h1 class=" titulo">Y-Terra Pack Soja / Pack Trigo
+              </h1>
+              <p class="color-white">Naturaleza y ciencia unidas para el cuidado del suelo.
+                Y-Terra es un biocontrolador de doble acción que previene las principales enfermedades y promueve	el crecimiento del cultivo.
+              </p>
+            </div>
+            </div>
+          </div>
 
-        <ul class="navbar-nav">
-          <li>
-            <a class="pnav" id="nav1" href="#nosotros">Nosotros</a>
-          </li>
-          <li>
-            <a class="pnav" id="nav1" href="#tercera">Contribuyentes</a>
-          </li>
-          <li>
-            <a class="pnav" id="nav1" href="#cuarta">Servicios</a>
-          </li>
-          <li style="width: 4.4em">
-            <a class="pnav" id="nav1" style="width: 4.4em" href="#sexta"
-              >Contacto</a
-            >
-          </li>
-          <li></li>
-        </ul>
+          <div class="carousel-item" data-bs-interval="5000" >
+            <img src="img/finarvis-header03.jpg" class="d-block w-100" alt="...">
+            <div class="row container-fluid-l uk-position-center w-100" id="media">
+              <div class="col-md-6 col-12">
+              <h1 class="titulo">Muestro de suelo
+                
+              </h1>
+              <p class="color-white">Una de las herramientas más importantes para optimizar el uso de fertilizantes es el análisis de suelo. 	En Finarvis YPF Agro contamos con este servicio que permite conocer el estado nutricional del suelo. 	Al hacerlo, se puede definir de forma óptima la cantidad y tipo de fertilizante a aplicar</p>
+            </div>
+            </div>
+          </div>
+          
+          <div class="carousel-item" data-bs-interval="5000" >
+            <img src="img/finarvis-header04.jpg " class="d-block w-100" alt="...">
+            <div class="row container-fluid-l uk-position-center w-100" id="media">
+              <div class="col-md-6 col-12"> 
+              <h1 class=" titulo">Plata de fertilizantes
+              </h1>
+              <p class="color-white">Contamos con una planta única en la zona para el almacenamiento y la mezcla física de fertilizantes 	de acuerdo a la necesidad de cada cultivo. A demás de la logística para la entrega en el campo.
+              </p>
+            </div>
+            </div>
+          </div>
 
-        <div>
-          <ul class="list-inline mb-0 d-none d-sm-none d-md-none d-lg-block">
-            <li class="list-inline-item "><a href="https://www.instagram.com/marinelli_sa_/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-            
-            
-            <li class="list-inline-item"><a href="https://wa.me/5493584209006" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-          </ul>
+
+          <div class="w-100 uk-position-bottom text-center mb-5" style="z-index: 999;">
+          <img src="img/flecha-top.png"  alt="">
         </div>
-      </div>-->
-      <div class="row container-fluid-l" id="media">
-        <h1 class="col-md-6 col-12 titulo">Estamos en cada etapa de tu cultivo
-
-        </h1>
+        </div>
+      
       </div>
+    
+      
 
 
-    </section>
+    
 
 <section id="nosotros" class="container-fluid espaciado-top "> 
 <div class="row">
@@ -541,31 +557,9 @@ CBA CP:5800
     <!-- Popper.JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
 
-    <script type="text/javascript">
-          
-            $(document).ready(function () {
-            $('#sidebarCollapse').on('click', function () {
-                $('#sidebar').toggleClass('active');
-            });
-           
-          
-       
-    var $slides = $('#head-home');
-    var images = $slides.data('slides');
-    var count = images.length;
-    var slideshow = function() {
-        $slides.css('background-image', 'url("' + images[Math.floor(Math.random() * count)] + '")');
-            setTimeout(slideshow, 5000);
-    };
-
-    slideshow();
-        
-});
-        
-    </script>
         <script src="js.js"></script>
 
 </body>
