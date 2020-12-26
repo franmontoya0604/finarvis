@@ -64,6 +64,8 @@
    border-radius: 0%;
   }
 
+  .card-body{padding:1em 2em!important ;}
+
 
   #soluciones{
   background-color: rgb(230, 230, 230);
@@ -71,13 +73,15 @@
 
   .card-height{height: 27em!important;}
 
-  div.uk-overlay-default.uk-position-bottom.card{height: 50%; margin-bottom: 5%; margin-right: 5%; border-radius: 0%!important; padding: 2% 7% 4% 7%;}
+  div.uk-overlay-default.uk-position-bottom.card{height: 50%; margin-bottom: 5%; margin-right: 5%; border-radius: 0%!important; padding: 2% 6% 4% 6%;}
 
 .uk-position-bottom div.row{padding: 0% 7% 0% 7%;}
 
 h7 { align-self: center;     line-height: 1.1em;}
 
-  
+.slider{    align-self: center;}  
+
+
 
 #contactos{background-color: #39b44a;}
 
