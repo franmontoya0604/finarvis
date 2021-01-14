@@ -42,7 +42,7 @@
   }
 
   .height-card {
-    height: 26em;
+    height: 30em;
   }
   .cambiacolor:hover {
     background-color: #39b44a;
@@ -81,7 +81,7 @@ margin-bottom: 2em;
   
   }
 
-  #border h4{
+  #border h3{
     color: white;
   }
 
@@ -210,6 +210,8 @@ color: white;
 .espaciado-bot-contactos{padding-bottom: 5.5%;}
 
 .espaciado-top-soluciones{padding-top: 17%; line-height: 2.5em;}
+
+.espaciado-bot-img{max-height: 100.15vh; height: 100em!important; min-height: 0em!important;}
 
 .menu{justify-content: center;}
 
@@ -432,11 +434,51 @@ color: #39b44a;
 }
 
 /*medias*/
+
+@media (max-width: 575.98px){
+  ul.uk-slider-items li{padding-left: 15px; padding-right: 15px;}
+  .col-3{width: 18%!important;}
+}
+
 @media (max-width: 767.98px){
   /*quitar slide*/
   /*cambiar todo a mobile(formu,mapa,nosotros,historia) ,todo ecepto la parte de mision y size*/
 /*poner 15px en container*/
-  html{font-size: 11.5px!important;}
+
+.espaciado-bot-img{max-height: 70.15vh; height: 100em!important; min-height: 0em!important;}
+
+.container-fluid-lr{padding-left: 15px!important;padding-right: 15px!important;}
+.container-fluid-l{padding-left: 15px!important;padding-right: 15px!important;}
+.container-fluid-r{padding-right: 15px!important;padding-left: 15px!important;}
+
+  html{font-size: 12px!important;}
+
+  .col-md-5{padding-left: 15px!important; padding-right: 15px!important; padding-top: 1em;}
+
+   p.right-p{padding: 0;}
+   p.left-p{padding: 0; text-align: left;}
+
+   .subtitulo{text-align: left!important; margin-bottom: 0.5em!important;}
+
+   #historia .col-md-7{text-align: left!important;}
+
+   .height-card{height: 27em;}
+
+   h1.right-h1{font-size: 2.2em!important;}
+
+   .padding-mobile{padding-left: 23px!important; padding-right: 23px!important;}
+
+   iframe{height: 25em;}
+
+   .img-logo2{margin-top: 2em;
+    margin-bottom: 4em;
+  }
+
+  .uk-light{width: 100%!important; right: 0%!important;}
+
+  .card-height{width: 100%; height: 30em!important; }
+
+  .flechas{margin-bottom: 1.5em!important; right: 0%;}
   }
 
 
