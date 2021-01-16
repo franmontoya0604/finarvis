@@ -418,6 +418,8 @@ color: #39b44a;
   transition: border-bottom 0.1s 0.1s ease-in;
 }
 
+#nav{text-decoration: none;}
+
 #nav:hover {
   border-bottom: white 2px solid;
   color: white;
@@ -479,6 +481,12 @@ color: #39b44a;
   .card-height{width: 100%; height: 30em!important; }
 
   .flechas{margin-bottom: 1.5em!important; right: 0%;}
+
+  .padding-mobile .espaciado-top-contactos{padding-left: 9px!important; text-align: center;}
+
+  #contactos{border-top: 2em solid rgb(230, 230, 230);}
+
+  .navbar-toggler:focus{box-shadow: none!important;}
   }
 
 
