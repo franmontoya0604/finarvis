@@ -32,7 +32,7 @@
     <div class="wrapper ">
       
     <nav
-          class="navbar fixed-top  navbar-dark vw-100 d-none d-sm-none d-md-block "
+          class="navbar fixed-top  navbar-dark vw-100 d-none d-sm-none d-md-none d-lg-block "
           id="0"
           style="z-index: 1000; height: 11%"
         >
@@ -66,7 +66,7 @@
               class="nav-item"
               style="
                 display: inline-flex;
-                width: 16.25em;
+                width: 300px;
     justify-content: flex-end;
              
               "
@@ -98,16 +98,16 @@
           </div>
         </nav>
 
-       
-        <div class="fixed-top d-sm-block d-md-none" >
+        <!--mobile menu
+        <div class="fixed-top d-sm-block d-lg-none" >
             <nav class="navbar" id="td" style="box-shadow: none; margin-bottom: 12%;">
               <div class="container " id="padding0">
                 <a
-                  class="navbar-brand py-2"
+                  class="navbar-brand pt-0"
                   
                   href="index.html"
                 >
-                <img src="img/finarvis-logo.svg" alt="finarvis" width="190" >
+                <img src="img/logo.png" alt="Marinelli S.A." width="180" >
                 </a>
   
                 <button
@@ -120,28 +120,34 @@
                   aria-label="Toggle navigation"
                   id="outline"
                 >
-                <span class="fas fa-bars color-white" style="font-size: 1.4em;"></span>
+                  <i class="fas fa-bars color-white"></i>
                 </button>
               </div>
             </nav>
             <div class="collapse rd" id="navbarToggleExternalContent">
               <div class="container" id="padding-x">
-                <div style="padding-top: 30%;  " >
-                  <li style="list-style: none; text-align: center;" >
+                <div style="padding-top: 20%;  padding-left: 18%;
+                padding-right: 10%;" >
+                  <li style="list-style: none; text-align: left;" >
                     <a class="pnav2" id="nav" href="#homeSubmenu" onclick="javascript:$('.rd').collapse('hide')">Quienes Somos</a>
                   </li>
   
-                  <li style="list-style: none; text-align: center;" >
-                    <a class="pnav2 " id="nav" href="#nosotros" onclick="javascript:$('.rd').collapse('hide')">Contacto</a>
+                  <li style="list-style: none; text-align: left;" >
+                    <a class="pnav2 " id="nav" href="#contactos" onclick="javascript:$('.rd').collapse('hide')">Contacto</a>
                   </li>
   
-               
-  
-                  <li style="list-style: none; text-align: center;">
-                    <a class="pnav2" id="nav" href="#soluciones" onclick="javascript:$('.rd').collapse('hide')">Soluciones</a>
+                  <li style="list-style: none; text-align: left;">
+                    <a class="pnav2" id="nav" href="hormigon.html">Hormigón</a>
                   </li>
   
-    
+                  <li style="list-style: none; text-align: left;">
+                    <a class="pnav2" id="nav" href="obras-botones.html">Obras</a>
+                  </li>
+  
+                  
+                  <li style="list-style: none; text-align: left;">
+                    <a class="pnav2" id="nav" href="aridos.html">Áridos</a>
+                  </li>
                 </div>
                 <div
                   class="nav-item"
@@ -170,7 +176,7 @@
               </div>
             
             </div>
-          </div>
+          </div>-->
 <!--content-->
 <div id="content" >
   
@@ -182,9 +188,9 @@
         <li >
           <img src="img/finarvis-header01.jpg" class="d-block w-100 espaciado-bot-img " uk-cover alt="...">
           <div class="row container-fluid-l  uk-position-center w-100"  id="media">
-            <h1 class="col-md-6 col-11  titulo">Estamos en cada etapa de tu cultivo
-    
-            </h1>
+            <div class="col-md-6 col-12 slider-text">
+              <h1 class="titulo">Estamos en cada etapa de tu cultivo</h1>
+          </div>
           </div>
         </li>
         <li>
@@ -195,7 +201,7 @@
         <li>
           <img src="img/finarvis-header03.jpg" class="d-block w-100 espaciado-bot-img" uk-cover alt="...">
           <div class="row container-fluid-l uk-position-center w-100" id="media">
-            <div class="col-md-6 col-11">
+            <div class="col-md-6 col-12 slider-text">
             <h1 class="titulo">Muestreo de suelo
               
             </h1>
@@ -206,7 +212,7 @@
         <li>
           <img src="img/finarvis-header04.jpg " class="d-block w-100 espaciado-bot-img" uk-cover alt="...">
           <div class="row container-fluid-l uk-position-center w-100" id="media">
-            <div class="col-md-6 col-11"> 
+            <div class="col-md-8 col-12 slider-text">
             <h1 class=" titulo">Planta de fertilizantes
             </h1>
             <p class="color-white">Contamos con una planta única en la zona para el almacenamiento y la mezcla física de fertilizantes de acuerdo a la necesidad de cada cultivo. Además de la logística para la entrega en el campo.
@@ -275,7 +281,7 @@
     <article class="container-fluid container-fluid-lr" style="text-align: center;">
       
       
-      <button class="btn btn-primary btn-mision" id="border"  type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+      <button class="btn btn-primary btn-mision" id="border"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
      
         <h3 >- Misión, visión y valores</h3>
        
